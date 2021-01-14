@@ -44,8 +44,7 @@ function initTowhub() {
                     slidesPerView: 3,
                 },
             },
-        observer: true,  
-       observeParents: true,});
+       });
     }
     if ($(".category-carousel").length > 0) {
         var j2 = new Swiper(".category-carousel .swiper-container", {
@@ -66,8 +65,7 @@ function initTowhub() {
                 nextEl: '.cc-next',
                 prevEl: '.cc-prev',
             },
-        observer: true,  
-       observeParents: true,});
+       });
     }
     if ($(".single-carousel").length > 0) {
         var j2 = new Swiper(".single-carousel .swiper-container", {
@@ -84,8 +82,7 @@ function initTowhub() {
                 nextEl: '.sc-next',
                 prevEl: '.sc-prev',
             },
-        observer: true,  
-       observeParents: true,});
+        });
     }
     if ($(".single-slider").length > 0) {
         var j2 = new Swiper(".single-slider .swiper-container", {
@@ -104,8 +101,7 @@ function initTowhub() {
                 nextEl: '.ss-slider-cont-next',
                 prevEl: '.ss-slider-cont-prev',
             },
-        observer: true,  
-       observeParents: true,});
+        });
     }
     if ($(".listing-carousel").length > 0) {
         var j3 = new Swiper(".listing-carousel .swiper-container", {
@@ -126,8 +122,7 @@ function initTowhub() {
                 nextEl: '.listing-carousel-button-next',
                 prevEl: '.listing-carousel-button-prev',
             },
-        observer: true,  
-       observeParents: true,});
+       });
     }
     if ($(".slider-widget").length > 0) {
         var j4 = new Swiper(".slider-widget .swiper-container", {
@@ -144,8 +139,7 @@ function initTowhub() {
                 nextEl: '.slider-widget-button-next',
                 prevEl: '.slider-widget-button-prev',
             },
-       observer: true,  
-       observeParents: true, });
+       });
     }
     if ($(".hero-slider").length > 0) {
         var hs = new Swiper(".hero-slider .swiper-container", {
@@ -162,8 +156,7 @@ function initTowhub() {
                 nextEl: '.slider-hero-button-next',
                 prevEl: '.slider-hero-button-prev',
             },
-        observer: true,  
-       observeParents: true,});
+       });
 
     }
     if ($(".slideshow-container").length > 0) {
