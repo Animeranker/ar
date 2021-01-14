@@ -16,7 +16,7 @@ function initTowhub() {
     if ($(".listing-slider").length > 0) {
         var lsw = new Swiper(".listing-slider .swiper-container", {
             preloadImages: false,
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 15,
             loop: true,
 
