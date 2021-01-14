@@ -1040,8 +1040,7 @@ function initTowhub() {
     $(".nav-button-wrap").on("click", function () {
         $(".main-menu").toggleClass("vismobmenu");
         $(this).toggleClass("vismobmenu_btn");
-observer: true,
-observeParents: true,	    
+	    
     });
     function mobMenuInit() {
         var ww = $(window).width();
