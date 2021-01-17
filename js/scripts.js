@@ -1102,19 +1102,7 @@ function initTowhub() {
             offset: 0
         });
     }
-// open hours -----------------
-    if ($(".opening-hours").length > 0) {
-        var d = new Date();
-        var weekday = new Array(7);
-        weekday[0] = "sun";
-        weekday[1] = "mon";
-        weekday[2] = "tue";
-        weekday[3] = "wed";
-        weekday[4] = "thu";
-        weekday[5] = "fri";
-        weekday[6] = "sat";
-        document.getElementsByClassName(weekday[d.getDay()])[0].classList.add("todaysDay");
-    }
+
 // qty -----------------
     $('.quantity-item').each(function () {
         var spinner = $(this),
