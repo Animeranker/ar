@@ -868,7 +868,7 @@ function initTowhub() {
     $(".fix-map").scrollToFixed({
         minWidth: 1064,
         zIndex: 0,
-        marginTop: 80,
+        marginTop: 60,
         removeOffsets: true,
         limit: function () {
             var a = $(".limit-box").offset().top - $(".fix-map").outerHeight(true);
@@ -878,7 +878,7 @@ function initTowhub() {
     $(".scroll-nav-wrapper").scrollToFixed({
         minWidth: 768,
         zIndex: 1112,
-        marginTop: 80,
+        marginTop: 60,
         removeOffsets: true,
         limit: function () {
             var a = $(".limit-box").offset().top - $(".scroll-nav-wrapper").outerHeight(true) - 50;
