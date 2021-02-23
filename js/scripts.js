@@ -848,7 +848,7 @@ function initTowhub() {
     //   scrollToFixed------------------
     $(".fixed-listing-header").scrollToFixed({
         minWidth: 1064,
-        marginTop: 80,
+        marginTop: 60,
         removeOffsets: true,
 
         limit: function () {
