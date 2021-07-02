@@ -35,7 +35,7 @@
 
 /* Ion.RangeSlider
 // css version 2.0.3
-// © 2013-2014 Denis Ineshin | IonDen.com
+// Â© 2013-2014 Denis Ineshin | IonDen.com
 // ===================================================================================================================*/
 
 /* =====================================================================================================================
@@ -45,7 +45,7 @@
 
 /* Ion.RangeSlider, Nice Skin
 // css version 2.0.3
-// © Denis Ineshin, 2014    https://github.com/IonDen
+// Â© Denis Ineshin, 2014    https://github.com/IonDen
 // ===================================================================================================================*/
 
 /* =====================================================================================================================
@@ -266,7 +266,7 @@ body .pac-container{border-radius:0 0 4px 4px;box-shadow:none;border:1px solid #
 }
 .tolt::after {
   border-radius: 2px;
-  background: #313E6E;
+  background: #000f1e;
   color: #fff;
   content: attr(data-tooltip);
   font-size:11px;
