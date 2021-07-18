@@ -446,7 +446,7 @@ function initTowhub() {
         $(".fixed-scroll-column-share-container").slideToggle(400);
     });
     $(".share-container").share({
-        networks: ['facebook', 'pinterest', 'twitter', 'reddit']
+        networks: ['facebook', 'pinterest', 'twitter', 'whatsapp']
     });
     var shrcn = $(".share-container");
     function showShare() {
